@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+
+    <div class="navbar">
+      <img src="assets/Logo.png" alt="Logo" />
+    </div>
+
+    <!-- Main container -->
+    <div class="container">
+      <!-- First nested div -->
+      <div class="first-div">
+        <img src="assets/frame.png" alt="Logo" />
+      </div>
+
+      <!-- Second nested div -->
+      <div class="second-div">
+        <button class="button-execute" id="execute">
+          Execute &nbsp;&nbsp;&rarr;
+        </button>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="tabs">
+        <div class="tab active" id="tab">Query History</div>
+        <div class="tab" id="tab">Tab 1</div>
+        <div class="tab" id="tab">Tab 2</div>
+      </div>
+
+      <br />
+
+      <div class="content">
+        <div class="query-history"></div>
+      </div>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
